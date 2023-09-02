@@ -1,7 +1,7 @@
 library(isotree)
 
 # Step 1: Import the accelerometer data
-accel_data <- read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasTop1000.csv", sep = ',')
+accel_data <- read.csv("<dir>/magnetomererdatasTop1000.csv", sep = ',')
 
 # Step 2: Preprocess the data (assuming no preprocessing needed in this example)
 
