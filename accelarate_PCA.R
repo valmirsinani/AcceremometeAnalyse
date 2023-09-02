@@ -3,7 +3,7 @@ library(stats)
 library(ggplot2)
 
 # Load the accelerometer data
-data <-  read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasWithDidDT.csv", sep = ',' )#,nrows=2000)
+data <-  read.csv("<dir>/magnetomererdatasWithDidDT.csv", sep = ',' )#,nrows=2000)
 
 
 # Data preprocessing
