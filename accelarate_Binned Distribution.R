@@ -3,7 +3,7 @@
 
 print("-------Calculate standard deviation----------")
 # Calculate standard deviation
-acceleration <- read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasWithDidDT.csv", sep = ',')
+acceleration <- read.csv("<dir>/magnetomererdatasWithDidDT.csv", sep = ',')
 
 data <- acceleration[, c("x", "y", "z")]
 
