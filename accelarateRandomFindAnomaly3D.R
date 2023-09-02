@@ -1,7 +1,7 @@
 library(rgl)
 
  
-accel_data <-read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatas.csv", sep = ',')
+accel_data <-read.csv("<dir>/magnetomererdatas.csv", sep = ',')
  
 #plot3d(accel_data$x, accel_data$y, accel_data$z, type = "l", xlab = "Acceleration X", ylab = "Acceleration y", zlab = "Acceleration z")
  
