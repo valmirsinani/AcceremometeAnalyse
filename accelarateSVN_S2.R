@@ -5,7 +5,7 @@ library(tidyverse)
 library(hms)
 
 
-dataset = read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasWithDidDT.csv", sep = ',')
+dataset = read.csv("<dir>/magnetomererdatasWithDidDT.csv", sep = ',')
 
 
 dataset =head(dataset,300) 
