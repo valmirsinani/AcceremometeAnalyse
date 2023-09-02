@@ -2,7 +2,7 @@
 
 install.packages("pracma")  # Install the pracma package if not already installed
 library(pracma)
-accel_data <- read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasWithDidDT.csv", sep = ',')
+accel_data <- read.csv("<dir>/magnetomererdatasWithDidDT.csv", sep = ',')
 
 
 
