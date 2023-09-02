@@ -1,5 +1,5 @@
 
-accelerometer_data <- read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasWithDidDT10000.csv", sep = ',')
+accelerometer_data <- read.csv("<dir>/magnetomererdatasWithDidDT10000.csv", sep = ',')
 
 #
 
