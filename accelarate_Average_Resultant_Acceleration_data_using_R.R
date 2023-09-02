@@ -1,6 +1,6 @@
 
 
-data <-  read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasWithDidDT.csv", sep = ',')
+data <-  read.csv("<dir>T/magnetomererdatasWithDidDT.csv", sep = ',')
 
 
 # Calculate the magnitude of acceleration for each data point
