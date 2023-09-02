@@ -1,5 +1,5 @@
 # Step 1: Import the accelerometer data
-accel_data <-  read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasWithDidDT.csv", sep = ',')
+accel_data <-  read.csv("<dir>/magnetomererdatasWithDidDT.csv", sep = ',')
 
 # Step 3: Set threshold parameters
 threshold_high <- 1.2  # Upper threshold for step detection
