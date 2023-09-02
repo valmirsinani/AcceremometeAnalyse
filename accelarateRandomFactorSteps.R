@@ -1,6 +1,6 @@
 
 #Load and preprocess accelerometer data 
-accelerometer_data <- read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasWithDidDT.csv", sep = ',')
+accelerometer_data <- read.csv("<dir>/magnetomererdatasWithDidDT.csv", sep = ',')
 
 #print(range(accelerometer_data))
 #print(sort(accelerometer_data$z, decreasing=TRUE))
