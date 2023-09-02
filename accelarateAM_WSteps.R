@@ -1,5 +1,5 @@
 
-accel_data <-  read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasWithDidDT.csv", sep = ',' ,nrows=2000)
+accel_data <-  read.csv("<dir>/magnetomererdatasWithDidDT.csv", sep = ',' ,nrows=2000)
 
 
 features <- cbind(acceleration_x = accel_data$x,
