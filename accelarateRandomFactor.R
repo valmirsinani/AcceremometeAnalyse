@@ -2,7 +2,7 @@ library(randomForest)
 library(party)
 
 # Step 1: Import the accelerometer data
-accel_data <- read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasTop1000.csv", sep = ',')
+accel_data <- read.csv("<dir>/magnetomererdatasTop1000.csv", sep = ',')
 
 str(accel_data)
 
