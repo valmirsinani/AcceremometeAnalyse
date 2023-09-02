@@ -1,6 +1,6 @@
 
 
-acceleration_data <- read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasTop1000.csv", sep = ',',nrows=3000)
+acceleration_data <- read.csv("<dir>/magnetomererdatasTop1000.csv", sep = ',',nrows=3000)
  
 install.packages("neuralnet")  # Install the neuralnet package
 library(neuralnet)            
