@@ -1,7 +1,7 @@
 #Windowed Peak Detection
 library(dplyr)
 
-accel_data <- read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasWithDidDT.csv", sep = ',')
+accel_data <- read.csv("<dir>/magnetomererdatasWithDidDT.csv", sep = ',')
 
 #accel_data %>% as.numeric(accel_data)
 
