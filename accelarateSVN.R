@@ -3,7 +3,7 @@ install.packages("e1071")
 library(e1071)
 
 
-data <- read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasWithDidDT.csv", sep = ',')
+data <- read.csv("<dir>/magnetomererdatasWithDidDT.csv", sep = ',')
 
 #plit the data into training and testing sets
 set.seed(123)  # For reproducibility
