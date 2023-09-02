@@ -6,7 +6,7 @@ library(e1071)   # For fuzzy c-means algorithm
 library(cluster) # For silhouette coefficient
 
 # Generate sample accelerometer data (replace with your own data)
-accelerometer_data <-accel_data <- read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasWithDidDT.csv", sep = ',')
+accelerometer_data <-accel_data <- read.csv("<dir>/magnetomererdatasWithDidDT.csv", sep = ',')
 
 
 accelerometer_data$x=as.double(accelerometer_data$x)
