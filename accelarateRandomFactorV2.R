@@ -1,6 +1,6 @@
 # Step 1: Load the required library
 library(randomForest)
-accel_data<-read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasWithDidDT.csv", sep = ',')
+accel_data<-read.csv("<dir>/magnetomererdatasWithDidDT.csv", sep = ',')
 
 # Step 2: Load the dataset
 #data(accel_data)  # Load the iris dataset (a popular example in classification)
