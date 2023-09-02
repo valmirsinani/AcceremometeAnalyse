@@ -1,7 +1,7 @@
 library(glmnet)  # Load the glmnet package for logistic regression
 
 
-dataset <- read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasTop1000.csv", sep = ',')#,nrows=3000)
+dataset <- read.csv("<dir>/magnetomererdatasTop1000.csv", sep = ',')#,nrows=3000)
 
 # R program to illustrate
 # Multi Layered Neural Networks
