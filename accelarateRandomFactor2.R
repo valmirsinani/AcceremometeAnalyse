@@ -1,4 +1,4 @@
-datas <- read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasTop1000.csv", sep = ',')
+datas <- read.csv("<dir>/magnetomererdatasTop1000.csv", sep = ',')
 
 library(randomForest)
 set.seed(123)  # For reproducibility
