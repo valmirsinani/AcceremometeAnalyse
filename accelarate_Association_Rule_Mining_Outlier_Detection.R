@@ -1,6 +1,6 @@
 
 
-accel_data <- read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasWithDidDT.csv", sep = ',')
+accel_data <- read.csv("<dir>/magnetomererdatasWithDidDT.csv", sep = ',')
 
 data <- accel_data[, c("x", "y", "z")]
 
