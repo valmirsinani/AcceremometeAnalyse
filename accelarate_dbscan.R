@@ -1,5 +1,5 @@
 # Step 1: Import the accelerometer data
-accel_data <-  read.csv("C:/Users/valmirs/Desktop/phdk/sem II IoT/magnetomererdatasWithDidDT.csv", sep = ',')
+accel_data <-  read.csv("<dir>/magnetomererdatasWithDidDT.csv", sep = ',')
 
 # Step 2: Preprocess the data (e.g., normalize, handle missing values, etc.)
 
